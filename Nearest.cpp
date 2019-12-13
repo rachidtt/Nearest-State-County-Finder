@@ -448,8 +448,8 @@ void vote5(string* States,string* Counties,double* best_dist, int k)//called if 
     
     for(int i = 0; i < vcounties.size(); i++)
     {
-       fivest[i] = vcounties[i].second;
-       fiveco[i] = vstates[i].second;
+       fivest[i] = vstates[i].second;
+       fiveco[i] = vcounties[i].second;
        st = consensus(fivest,5);
        co = consensus(fiveco,5);
        
