@@ -3,7 +3,7 @@
 Given the Latitude/Longitude coordinates of an input point, find the K nearest neighbors and decide the state and county of the point.
 
 
-# For the full report see: Report.pdf
+## (For the full report see Report.pdf)
 
 
 ## Overview
